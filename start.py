@@ -6,8 +6,3 @@ def gaan():
 print("tweede statement")
 
 gaan()
-gaan()
-gaan()
-gaan()
-gaan()
-gaan()
