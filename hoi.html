@@ -1,0 +1,61 @@
+go
+broncode
+
+
+TAG innerHTML
+
+ATTRIBUUT
+
+EVENT
+
+
+HTML
+CSS3
+JS
+<style>
+	h1{
+		background-color:red;
+		border:2px dashed green;
+		padding:15px;
+		border-radius: 20px;
+	}
+	.uitzondering{
+		background-color:yellow;
+		color:purple;
+		font-size:50px;
+	}
+	#anders{
+		margin:50px;
+	}
+</style>
+<script>
+	let x = 15;
+	function gaan(){
+		x = document.getElementById("frits").value;
+		document.getElementById("anders").innerHTML = x;
+		a();
+	}
+	function a(){
+		console.log("ik zit in a");
+		console.log(x);
+	}
+
+</script>
+
+Reference GUIDE   API   Documentatie   - taal
+
+2 benen
+- syntax vaardigheid
+- bibliotheek bekendheid
+
+
+<input id="frits">
+<b> anders </b>
+<hr></hr>
+<div>
+	<h1 class="uitzondering" id="anders"  onclick="gaan()" >LetOP: Hoofstuk</h1>
+	<p>dit is een stuk tekst</p>
+</div>
+<h1 class="uitzondering">iets</h1>
+<textarea cols="2" autofocus rows="25"></textarea>
+<input type="button" value="Klik hier">
